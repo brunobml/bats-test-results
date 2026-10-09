@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites time="6.457">
+<testsuite name="01_infra_and_control_plane.bats" tests="6" failures="0" errors="0" skipped="0" time="6.457" timestamp="2026-10-09T06:42:04" hostname="lab-host">
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 1: Moto Cloud API is responding at http://localhost:5000" time="0.021" />
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 2a: Hub cluster API is reachable" time="0.325" />
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 2b: All Argo CD core pods are Running" time="0.846" />
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 2c: Both spoke-nonprod and spoke-prod clusters are registered in Argo CD" time="0.371" />
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 4a: Spoke clusters APIs are reachable" time="1.096" />
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 4b: ACK SQS and Kro controllers are ready on both spokes" time="3.798" />
+</testsuite>
+</testsuites>
