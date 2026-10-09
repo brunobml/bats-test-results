@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites time="0.027">
+<testsuite name="01_infra_and_control_plane.bats" tests="1" failures="0" errors="0" skipped="0" time="0.027" timestamp="2026-10-09T07:04:23" hostname="lab-host">
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 1: Moto Cloud API is responding at http://localhost:5000" time="0.027" />
+</testsuite>
+</testsuites>
