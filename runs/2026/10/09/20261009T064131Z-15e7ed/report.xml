@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites time="7.959">
+<testsuite name="01_infra_and_control_plane.bats" tests="12" failures="0" errors="0" skipped="0" time="7.959" timestamp="2026-10-09T06:41:40" hostname="lab-host">
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 1: Moto Cloud API is responding at http://localhost:5000" time="0.023" />
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 2a: Hub cluster API is reachable" time="0.366" />
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 2b: All Argo CD core pods are Running" time="0.349" />
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 2c: Both spoke-nonprod and spoke-prod clusters are registered in Argo CD" time="0.408" />
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 4a: Spoke clusters APIs are reachable" time="0.741" />
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 4b: ACK SQS and Kro controllers are ready on both spokes" time="2.116" />
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 1: Moto Cloud API is responding at http://localhost:5000" time="0.023" />
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 2a: Hub cluster API is reachable" time="0.296" />
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 2b: All Argo CD core pods are Running" time="0.361" />
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 2c: Both spoke-nonprod and spoke-prod clusters are registered in Argo CD" time="0.277" />
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 4a: Spoke clusters APIs are reachable" time="0.758" />
+    <testcase classname="01_infra_and_control_plane.bats" name="Gate 4b: ACK SQS and Kro controllers are ready on both spokes" time="2.241" />
+</testsuite>
+<testsuite name="02_gitops_applications.bats" tests="0" failures="0" errors="0" skipped="0" time="0" timestamp="2026-10-09T06:41:40" hostname="lab-host">
+</testsuite>
+<testsuite name="setup_suite" tests="1" failures="1" errors="0" skipped="0" time="0" timestamp="2026-10-09T06:41:40" hostname="lab-host">
+    <testcase classname="setup_suite" name="setup_file failed" time="0">
+        <failure type="failure" />
+    </testcase>
+</testsuite>
+<testsuite name="03_carm_and_workload_pipeline.bats" tests="0" failures="0" errors="0" skipped="0" time="0" timestamp="2026-10-09T06:41:40" hostname="lab-host">
+</testsuite>
+<testsuite name="setup_suite" tests="1" failures="1" errors="0" skipped="0" time="0" timestamp="2026-10-09T06:41:40" hostname="lab-host">
+    <testcase classname="setup_suite" name="setup_file failed" time="0">
+        <failure type="failure" />
+    </testcase>
+</testsuite>
+<testsuite name="04_credentials_and_sso.bats" tests="0" failures="0" errors="0" skipped="0" time="0" timestamp="2026-10-09T06:41:40" hostname="lab-host">
+</testsuite>
+<testsuite name="setup_suite" tests="1" failures="1" errors="0" skipped="0" time="0" timestamp="2026-10-09T06:41:40" hostname="lab-host">
+    <testcase classname="setup_suite" name="setup_file failed" time="0">
+        <failure type="failure" />
+    </testcase>
+</testsuite>
+<testsuite name="05_supply_chain_admission.bats" tests="0" failures="0" errors="0" skipped="0" time="0" timestamp="2026-10-09T06:41:40" hostname="lab-host">
+</testsuite>
+<testsuite name="setup_suite" tests="1" failures="1" errors="0" skipped="0" time="0" timestamp="2026-10-09T06:41:40" hostname="lab-host">
+    <testcase classname="setup_suite" name="setup_file failed" time="0">
+        <failure type="failure" />
+    </testcase>
+</testsuite>
+<testsuite name="06_observability.bats" tests="0" failures="0" errors="0" skipped="0" time="0" timestamp="2026-10-09T06:41:40" hostname="lab-host">
+</testsuite>
+<testsuite name="setup_suite" tests="1" failures="1" errors="0" skipped="0" time="0" timestamp="2026-10-09T06:41:40" hostname="lab-host">
+    <testcase classname="setup_suite" name="setup_file failed" time="0">
+        <failure type="failure" />
+    </testcase>
+</testsuite>
+</testsuites>
