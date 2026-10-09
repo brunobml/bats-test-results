@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "run_id": "20261009T063915Z-aa61ea",
+  "start_time_utc": "2026-10-09T06:39:15Z",
+  "end_time_utc": "2026-10-09T06:39:15Z",
+  "bats_version": "1.14.0",
+  "suite": "smoke",
+  "filter": null,
+  "exit_code": 0,
+  "summary": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0,
+    "skipped": 0,
+    "duration_seconds": 4.253
+  },
+  "source": {
+    "gitops_control_plane_commit": "d15b7d4",
+    "catalog_revisions": {
+      "spoke-nonprod": "main",
+      "spoke-prod": "v1.16.0"
+    }
+  },
+  "report_sha256": "1d58efe5295a0c0afed611b54e8a75a8660e6babbc09ad04c605ded14e5276b6"
+}
