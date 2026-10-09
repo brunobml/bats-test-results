@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites time="0.496">
+<testsuite name="07_bats_reports.bats" tests="2" failures="0" errors="0" skipped="0" time="0.496" timestamp="2026-10-09T08:07:24" hostname="lab-host">
+    <testcase classname="07_bats_reports.bats" name="Gate 14: Bats report viewer is ready and has prior results" time="0.163" />
+    <testcase classname="07_bats_reports.bats" name="Gate 14a: ACK S3 report bucket is synced in the nonprod account" time="0.333" />
+</testsuite>
+</testsuites>
